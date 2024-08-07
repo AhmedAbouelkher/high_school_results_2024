@@ -17,8 +17,8 @@ For English, see [here](./README.md).
 مجموعة البيانات متاحة بالتنسيقات التالية:
 
 - [النتائج بصيغة CSV](./high_school_results_2024.csv.zip).
-- [النتائج في تفريغ SQL](./high_school_results_2024.sql) _PostgreSQL_.
-    > يمكن استيراد تفريغ SQL باستخدام `pg_restore -v -d <database_url> high_school_results_2024.sql`
+- [النتائج في تفريغ SQL](./high_school_results_2024.sql.gz) _PostgreSQL_.
+    > يمكن استيراد تفريغ SQL باستخدام `pg_restore -v -d <database_url> high_school_results_2024.sql.gz`
 
 مثال للاستخدام:
 
@@ -58,4 +58,3 @@ SELECT student_case, COUNT(*) FROM results GROUP BY student_case;
 - **الاستخدام الأخلاقي:** يجب على المستخدمين استخدام البيانات بشكل أخلاقي ومسؤول، مع مراعاة التأثير المحتمل على الأفراد الذين قد تكون معلوماتهم مضمنة.
 
 إذا كنت لا توافق على هذه الشروط، يُنصح بعدم استخدام أو توزيع البيانات المدرجة في هذا المستودع.
-```

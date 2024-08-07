@@ -17,8 +17,8 @@ This is a dataset of Egyptian high school results for the year 2024. The dataset
 The dataset is available in the following formats:
 
 - [Results in CSV format](./high_school_results_2024.csv.zip).
-- [Results in SQL dump](./high_school_results_2024.sql) _PostgreSQL_.
-    > SQL dump can be imported using `pg_restore -v -d <database_url> high_school_results_2024.sql`
+- [Results in SQL dump](./high_school_results_2024.sql.gz) _PostgreSQL_.
+    > SQL dump can be imported using `pg_restore -v -d <database_url> high_school_results_2024.sql.gz`
 
 Example Usage:
 
